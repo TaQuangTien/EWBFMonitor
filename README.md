@@ -17,8 +17,11 @@ How to use:
 - MySQL URL (this is where php files been) (eg: http://PUR_YOUR_DOMAIN_HERE/miningrig/)
 5. Check Enable monitor to begin.
 
+App looking
 ![Monitor App](https://raw.githubusercontent.com/TaQuangTien/EWBFMonitor/master/Screenshots/monitor.png)
 
+Database looking
 ![Database ](https://raw.githubusercontent.com/TaQuangTien/EWBFMonitor/master/Screenshots/mysqldata.png)
 
+Final result
 ![Final result ](https://raw.githubusercontent.com/TaQuangTien/EWBFMonitor/master/Screenshots/result.png)
