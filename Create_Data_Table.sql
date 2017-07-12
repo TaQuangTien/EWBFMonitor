@@ -1,0 +1,15 @@
+CREATE TABLE `gpulog` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `DATE_TIME` datetime NOT NULL,
+  `GPU_NAME` varchar(30) NOT NULL,
+  `GPU_TEMP` int(11) NOT NULL,
+  `GPU_POWER` int(11) NOT NULL,
+  `GPU_SPEED` int(11) NOT NULL,
+  `GPU_EFFICIENT` float NOT NULL
+)
+
+ALTER TABLE `gpulog`
+  ADD PRIMARY KEY (`ID`),
+  ADD KEY `gpulog_GPU_NAME_DATE_TIME_idx` (`GPU_NAME`,`DATE_TIME`),
+  ADD KEY `gpulog_DATE_TIME_idx` (`DATE_TIME`);
+
